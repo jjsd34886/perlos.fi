@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64"><defs>
+    <linearGradient id="bg9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"></stop>
+      <stop offset="100%" stop-color="#1e293b"></stop>
+    </linearGradient>
+    <linearGradient id="z9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2dd4bf"></stop>
+      <stop offset="100%" stop-color="#0891b2"></stop>
+    </linearGradient>
+    <linearGradient id="bolt9" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"></stop>
+      <stop offset="100%" stop-color="#f59e0b"></stop>
+    </linearGradient>
+    <filter id="glow9">
+      <feGaussianBlur stdDeviation="2" result="blur"></feGaussianBlur>
+      <feMerge><feMergeNode in="blur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge>
+    </filter>
+  </defs><rect width="64" height="64" rx="12" fill="url(#bg9)"></rect><polygon points="10,10 46,10 46,18 22,46 46,46 46,54 10,54 10,46 34,18 10,18" fill="url(#z9)" filter="url(#glow9)" opacity="0.9"></polygon><polygon points="44,8 36,30 42,30 38,56 54,28 46,28" fill="url(#bolt9)" opacity="0.95"></polygon><circle cx="6" cy="28" r="2" fill="#2dd4bf" opacity="0.5"></circle><circle cx="6" cy="36" r="2" fill="#2dd4bf" opacity="0.3"></circle><circle cx="6" cy="44" r="2" fill="#2dd4bf" opacity="0.2"></circle></svg>
